@@ -1,0 +1,15 @@
+# Never commit secrets or local environment
+.env
+.env.*
+!.env.example
+
+# Virtual environment and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Local MongoDB data (if run in-tree)
+mongo/
+db/
